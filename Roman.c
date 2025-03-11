@@ -21,7 +21,9 @@ int main(){
             printf("%s", symbols[i]);
             number -= values[i]; 
     }
-
+    }
+    return 0;
+}
     /*
     For each value in the array, repeatedly subtract the value 
     from the input number and append the corresponding symbol 
@@ -62,5 +64,3 @@ int main(){
 
     // printf("%d", number);
   
-    return 0;
-}
